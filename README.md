@@ -4,11 +4,11 @@
   <img src="banner.png" alt="AI Sparring Match — Claude vs Codex" width="680"/>
 </p>
 
-**One AI argues your side. Another tears it apart. Up to 6 structured rounds.**
+**One AI argues your side, another tears it apart, for up to 6 structured rounds.**
 
-Default pairing: **Claude Opus (advocate) vs GPT (critic)**. Both sides are fully configurable — swap in Gemini, use API keys, mix and match.
+Default pairing: **Claude Opus (advocate) vs GPT (critic)**. Both sides are configurable: swap in Gemini, use API keys, or mix them.
 
-Most "debate this topic" prompts ask one model to argue both sides — same biases, same blind spots, no real pressure. This skill pits two models from different companies against each other, with a research phase that actually understands your context before anyone starts arguing.
+Most "debate this topic" prompts ask one model to argue both sides, so you get the same biases and blind spots and no real pressure. This skill pits two models from different companies against each other, with a research phase that actually understands your context before anyone starts arguing.
 
 <p align="center">
   <img src="demo.gif" alt="Demo — multi-round sparring in Claude Code" width="680"/>
@@ -26,9 +26,9 @@ Most "debate this topic" prompts ask one model to argue both sides — same bias
 Scans your workspace files, reads relevant context, checks conversation history, runs web searches if the topic touches the outside world. Builds a context brief so the advocate argues *your* actual position, not a generic one.
 
 **Phase 2 — Structured sparring (up to 6 rounds)**
-- 🟢 Advocate opens with 3–5 arguments grounded in your actual context
-- 🔴 Critic attacks: blind spots, hidden assumptions, weak evidence, edge cases
-- Rounds continue until convergence or 6 rounds — convergence must be explicitly signaled, not assumed
+- Advocate opens with 3–5 arguments grounded in your actual context
+- Critic attacks: blind spots, hidden assumptions, weak evidence, edge cases
+- Rounds continue until convergence or 6 rounds. Convergence must be signaled explicitly, not assumed
 
 **Phase 3 — Synthesis**
 What survived, what changed, what the critic conceded, what stayed unresolved.
